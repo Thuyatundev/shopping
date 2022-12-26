@@ -1,0 +1,152 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+#navbar{
+    background-image: linear-gradient(rgb(68, 81, 94),rgb(3, 11, 29)) ;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.8;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar:hover
+{
+    box-shadow: 2px 2px 4px rgb(9, 223, 105);
+    opacity: 0.9;
+}
+
+#navbar ul li a:hover
+{
+    background-color: #000;
+    border-radius: 20px;
+    color: #15bf97;
+    padding: 10px;
+}
+
+#banner
+{
+    background-image: linear-gradient(#1dafd3, #15bf97);
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+    /* padding: 50px; */
+}
+
+.wave-img{
+    max-width: 100%;
+}
+
+.header-title{
+    padding-top: 100px;    
+}
+
+.header-para
+{
+    padding: 20px;
+}
+
+.header-btn
+{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color:black;
+    color: #15bf97;
+}
+
+.header-btn:hover{
+    color:black;
+    background-color:chartreuse ;
+}   
+
+.banner-img
+{
+    width: 500px;
+    padding: 60px 0;
+    border-radius: 50%;
+}
+
+.service-img{
+    width: 240px;
+    height: 240px;
+}
+
+#app-box{
+    background-image: linear-gradient(#1dafd3, #15bf97);
+    padding: 30px;
+}
+
+.app-img
+{
+    width: 400px;
+}
+
+.app-para{
+    padding: 30px;
+}
+
+.app-group
+{
+    text-align: center; 
+}
+
+.app-btn{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.app-btn:hover{
+    background-color: #000;
+    color: #1dafd3;
+}
+
+.card{
+    background-color: #15bf97;
+    width: 250px;   
+    margin-top: 30px; 
+}
+
+.card-btn{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 20px;
+   
+}
+
+.card-btn:hover{
+    text-decoration: none;
+   background-color: chocolate;
+   color: #000;
+}
+
+#footer{
+    background-image: linear-gradient(#1dafd3, #15bf97);
+}
+
+.map{
+    border-radius: 20px;
+}
+
+.foot{
+    margin-top: 20px;
+    padding: 10px;
+    height: 40px;
+    border-top: 1px solid rgb(243, 231, 231);
+    text-align: center;
+}
+
